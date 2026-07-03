@@ -1,22 +1,26 @@
-# 🛡️ SecOps AI™ - Enterprise Spam Email Gateway
+# 🛡️ MailShield AI
 
-An industry-ready, explainable AI system designed to automatically filter out spam, phishing attempts, and fraudulent logs from email payloads using Natural Language Processing (NLP) and a Multinomial Naive Bayes classifier.
+### An AI-Powered Spam, Phishing & Email Threat Detection System
+
+A production-grade, explainable AI gateway designed to automatically inspect, isolate, and audit malicious email payloads, phishing attempts, and fraudulent logs using Natural Language Processing (NLP) and a Multinomial Naive Bayes classification architecture.
 
 ---
 
 ## 🚀 Key Features
 
-* **🎯 Real-Time Single Ingestion:** Supports direct text stream analysis or parsing official raw email files (`.eml` / `.txt`).
-* **📊 Bulk Batch Auditing:** Allows users to upload a massive stream file (`.csv`) to check hundreds of logs at once and export an audit report.
-* **🕵️‍♂️ Explainable AI (XAI) Engine:** Doesn't just classify; it breaks down the specific risk triggers (e.g., Financial Urgency, Lottery Rewards) and exposes trigger tokens.
-* **🏢 Brand Spoofing Alert:** Explicitly flags phishing attempts targeting high-profile corporate domains like Paytm, Google Pay, Amazon, and official banking structures.
-* **📈 Risk Index Calibration:** Features an interactive real-time visual gauge reflecting computed threat risk matrix metrics using dynamic probability distribution.
+* **🛡️ MailShield AI Detection Console:** A streamlined control interface for processing live diagnostics.
+* **📂 Upload Email:** Dynamic file ingestion module parsing standard raw email logs (`.eml` / `.txt`) exported from Outlook or Gmail clients.
+* **✍️ Direct Email Input:** An active text stream sandbox for real-time text analysis.
+* **📊 Bulk Batch Auditing:** Processes massive diagnostic datasets (`.csv`) in a single execution run, rendering detailed analytics and exportable audit logs.
+* **🕵️‍♂️ Explainable AI (XAI) Dashboard:** Delivers automated reasonings behind flags, identifying precise threat vectors (e.g., Financial Urgency, Lottery Bait).
+* **🏢 Brand Spoofing Protection:** Actively isolates high-risk phishing logs imitating critical corporate banking and consumer domains like Paytm, Google Pay, Amazon, PhonePe, and Netflix.
+* **📈 Dynamic Threat Gauge:** Maps structural matrix probability scores onto an interactive calibrated risk visualization index.
 
 ---
 
 ## 🛠️ Architecture & ML Pipeline
 
-The system processes incoming data strings through a well-calibrated NLP pipeline:
+The data pipeline translates unstructured text into deterministic security predictions:
 
 ```text
-Raw Text ➔ RegEx Tokenization ➔ Case Normalization ➔ Stopword Filtering ➔ Porter Stemming ➔ TF-IDF Vectorization ➔ Multinomial Naive Bayes Inference ➔ Threat Analytics UI
+Incoming Payload ➔ Tokenization ➔ Case Normalization ➔ Stopword Filtering ➔ Porter Stemming ➔ TF-IDF Vectorization ➔ Bayesian Inference ➔ Audit Display
